@@ -19,7 +19,11 @@ app.use(logMiddleware)
 app.use(express.urlencoded({ extended: true }))
 app.set('view engine', 'njk')
 
-const objUsers = [{ nome: 'Alisson', idade: 27 }, { nome: 'Andryw', idade: 30 }]
+const objUsers = [
+  { nome: 'Alisson', idade: 27 },
+  { nome: 'Andryw', idade: 30 },
+  { nome: 'Ana', idade: 34 }
+]
 
 // const objUsers = ['Alisson','Andryw','Sergio','Anderson'];
 
