@@ -1,0 +1,7 @@
+<h1>{{message}} {{appName}}</h1>
+<ul>
+  {% for u in users %}
+  <li>{{u.nome}} {{u.idade}}</li>
+  {% endfor %}
+</ul>
+<a href='/newUser'>Cadastrar Novo</a>
